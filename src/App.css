@@ -1,8 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Arvo:ital,wght@1,400;1,700&family=Comfortaa&family=DynaPuff&family=Inconsolata&family=Merriweather:wght@400;700&family=Montserrat&family=Mukta&family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+NKo&family=Oswald&family=Poppins:wght@400;500&family=Righteous&family=Roboto+Mono:wght@100;500&family=Roboto:wght@100&family=Satisfy&family=Signika+Negative:wght@300;400&family=Ubuntu&display=swap');
 
+* {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -moz-tap-highlight-color: transparent;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+*:active {
+    outline: none;
+}
+
+
+
 .bg-blur {
     backdrop-filter: blur(5px);
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .bg-gradient {
@@ -13,4 +27,9 @@
 
 .font {
     font-family: 'Poppins', sans-serif;
+}
+
+.bg-app {
+    background: radial-gradient(100% 225% at 100% 0%, #FF0000 0%, #000000 100%), linear-gradient(236deg, #00C2FF 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 0%, #CDFFEB 36%, #009F9D 36%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+    background-blend-mode: overlay, hard-light, normal;
 }
