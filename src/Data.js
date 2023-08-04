@@ -10,8 +10,8 @@ export const links = [
         link: 'https://www.linkedin.com/in/sastra-pradana-a50b72252/',
     },
     {
-        nama: 'Batu Bata',
-        link: 'https://batu-bata88.netlify.app',
+        nama: 'Portofolio',
+        link: 'https://sastrapradana66.netlify.app/',
     }
 ]
 

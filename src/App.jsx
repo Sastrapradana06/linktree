@@ -23,7 +23,7 @@ function App() {
                 <button className='flex border w-[90%] m-auto items-center p-1 hover:shadow-xl hover:scale-x-105 transition-all duration-300 rounded-lg'>
                   {data.nama === 'Git Hub' && <AiFillGithub  size={50} color='teal'className='ml-5 '/>}
                   {data.nama === 'LinkedIn' && <AiFillLinkedin  size={50} color='teal'className='ml-5 '/>}
-                  {data.nama === 'Batu Bata' && <AiOutlineLink  size={50} color='teal'className='ml-5 '/>}
+                  {data.nama === 'Portofolio' && <AiOutlineLink  size={50} color='teal'className='ml-5 '/>}
                   <a href={data.link} className='text-[1.3rem] w-full'>{data.nama}</a>
                 </button>
               </div>
